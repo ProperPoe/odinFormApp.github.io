@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Form App</title>
+</head>
+<body>
+    <div class="form-pic-container">
+        <div>
+            
+            <aside>
+                <div class="nameTitle">
+                    <div class="namee">
+                        <h1>Odin</h1>
+
+                    </div>
+       
+                </div>
+            </aside>
+        </div>
+        <div class="form-container">
+
+            <form action="/">
+                <span><h2>Lets do this!</h2></span>
+                <div style="display: flex; gap: 60px;">
+                    <div style="display: flex; flex-direction: column;">
+
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="firstname" minlength="3">
+                        <div class="firstNameErrorMessage">
+                            
+                        </div>
+                        
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="lastname" minlength="3">
+                        <div class="lastNameErrorMessage">
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 60px;">
+                    <div style="display: flex; flex-direction: column;">
+
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                        <div class="emailErrorMessage">
+                        </div>
+                        
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="phonenumber" id="phoneNumber" name="phonenumber">
+                        <div class="PhoneErrorMessage">
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 60px">
+                    <div style="display: flex; flex-direction: column;">
+
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                        <div class="passwordErrorMessage">
+                        </div>
+                        
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+
+
+                        <label for="confirmpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmpassword" name="confirmpassword">
+                        <div class="confErrorMessage">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div style="display: flex; flex-direction: column;">
+                </div> -->
+
+                <button type="submit">Create Account</button>
+            </form>
+            <span style="position: absolute; bottom: 0; margin-bottom: 155px; margin-left: 20px;"><h4>Already have an account? Log In</h3></span>
+        </div>
+    </div>
+</body>
+</html>
